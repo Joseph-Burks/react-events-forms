@@ -1,0 +1,29 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "name": "Paul Pogba",
+            "position": "Midfeild",
+            "team": "Manchester United",
+            "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p74208.png",
+            "likes": 10
+        },
+        {
+            "id": 2,
+            "name": "Kevin De Bruyne",
+            "position": "Midfeild",
+            "team": "Manchester City",
+            "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p61366.png",
+            "likes": 8
+        },
+        {
+            "id": 3,
+            "name": "Harry Kane",
+            "position": "Forward",
+            "team": "Tottenham Hotspur",
+            "image": "https://resources.premierleague.com/premierleague/photos/players/250x250/p78830.png",
+            "likes": 5
+        }
+
+    ]
+}
