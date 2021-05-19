@@ -1,7 +1,11 @@
 import React from 'react';
 import { Card, Icon, Image } from 'semantic-ui-react';
 
-const PlayerCard = ({player}) => {
+const PlayerCard = ({player, addLike}) => {
+
+    const handleLike = () => {
+        addLike(player)
+    }
 
 	return (
 		<Card>
@@ -15,7 +19,7 @@ const PlayerCard = ({player}) => {
 			</Card.Content>
 			<Card.Content extra>
 				<p>
-					<Icon name='thumbs up outline' />
+					<Icon name='thumbs up outline' onClick={handleLike} />
 					{player.likes} Likes
 				</p>
 			</Card.Content>
